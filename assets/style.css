@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+
+.title{
+    font-family: 'Teko', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #00AE00;
+}
+
+.conteudoPrincipal{
+    width: 60%;
+    margin: auto;
+    background-color: #eeecec;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.displaySegundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Teko', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textoInput{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    font-family: 'Teko', sans-serif;
+}
+
+.btn{
+    padding: 10px;
+    width: 20%;
+    background-color: #0088DD;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+.conteudoLista{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.listaPrincipal{
+    list-style: none;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.3px solid #00AE00;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #0088DD;
+}
+
+a{
+    text-decoration: none;
+    color: #FF1E00;
+}
+
+footer span{
+    display: block;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 'Teko', sans-serif;
+    margin-top: 20px;
+}
